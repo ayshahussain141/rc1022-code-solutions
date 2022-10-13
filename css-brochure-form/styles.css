@@ -1,12 +1,17 @@
+main {
+  width: 600px;
+  margin: 0;
+}
+
 body {
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 h2 {
-  margin-left: 130px;
+  /* margin-left: 130px; */
   color: #ec5d57;
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", serif;
   font-style: normal;
   font-weight: 500;
   src: url("BrandonGrotesque-Medium.woff2") format("woff2");
@@ -15,7 +20,7 @@ h2 {
 
 .information {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", serif;
   font-style: normal;
   font-weight: 500;
   src: url("BrandonGrotesque-Medium.woff2") format("woff2");
@@ -33,7 +38,7 @@ input {
   margin-bottom: 17px;
   border-radius: 7px;
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: AtlasGrotesk;
+  font-family: AtlasGrotesk, serif;
   font-style: normal;
   font-weight: 300;
   src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
@@ -57,7 +62,7 @@ select {
   margin-bottom: 17px;
   background-color: #f3f3f3;
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", serif;
   font-style: normal;
   font-weight: normal;
   src: url("BrandonGrotesque-Regular.woff2") format("woff2");
