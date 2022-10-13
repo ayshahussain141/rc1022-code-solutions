@@ -1,0 +1,83 @@
+body {
+  margin: 20px;
+}
+
+h2 {
+  margin-left: 130px;
+  color: #ec5d57;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+  letter-spacing: 1px;
+}
+
+.information {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+  font-size: 12px;
+  letter-spacing: 0.006rem;
+}
+
+input {
+  border-color: #b5b9b8;
+  padding-top: 10px;
+  padding-right: 300px;
+  padding-bottom: 9px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  padding-left: 10px;
+  margin-bottom: 17px;
+  border-radius: 7px;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: AtlasGrotesk;
+  font-style: normal;
+  font-weight: 300;
+  src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
+  font-size: 14px;
+  border-style: solid;
+  border-width: 0.005rem;
+}
+
+label {
+  margin-left: 12px;
+}
+
+select {
+  border-color: rgb(214 209 209 / 95.2%);
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-right: 348px;
+  padding-bottom: 4px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  padding-left: 10px;
+  margin-bottom: 17px;
+  background-color: #f3f3f3;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: normal;
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2");
+  font-size: 14px;
+}
+
+button {
+  color: white;
+  margin-left: 375px;
+  background-color: #ec5d57;
+  border-color: #ec5d57;
+  border-radius: 19px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  padding-right: 20px;
+  border-style: none;
+}
+
+input::placeholder {
+  color: #b1b3b3ed;
+}
