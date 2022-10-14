@@ -1,14 +1,10 @@
 main {
   width: 600px;
-  margin: 0;
-}
-
-body {
-  /* margin: 20px; */
+  margin: 0% auto;
 }
 
 h2 {
-  /* margin-left: 130px; */
+  margin-left: 130px;
   color: #ec5d57;
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: "Brandon Grotesque", serif;
