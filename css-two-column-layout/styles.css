@@ -1,0 +1,90 @@
+/* stylelint-disable CssSyntaxError */
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  text-align: center;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBWXvYC6trAT7zuC8m5xLtlmgzD.woff2") format("woff2");
+  letter-spacing: 7px;
+  font-size: 25px;
+  flex-basis: 100%;
+}
+
+.column-full-two {
+  text-align: center;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2") format("woff2");
+  margin-top: -25px;
+  color: #565656;
+  flex-basis: 100%;
+}
+
+.containing {
+  width: 75%;
+}
+
+.column-half {
+  flex-basis: 50%;
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-two-thirds {
+  flex-basis: calc(200% / 3);
+  margin-top: 25px;
+  margin-left: -25px;
+}
+
+.column-two-thirds > p {
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2") format("woff2");
+  color: #565656;
+  line-height: 25px;
+  letter-spacing: 0.05px;
+}
+
+.column-two-thirds > h3 {
+  text-align: left;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBWXvYC6trAT7zuC8m5xLtlmgzD.woff2") format("woff2");
+  font-size: 15px;
+}
+
+.column-full > button {
+  color: #d14c45;
+  background-color: white;
+  border-color: #d14c45;
+  border-style: solid;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 20px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  padding-left: 20px;
+  text-align: center;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBWXvYC6trAT7zuC8m5xLtlmgzD.woff2") format("woff2");
+  margin-top: 25px;
+}
