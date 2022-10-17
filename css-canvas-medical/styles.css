@@ -138,7 +138,7 @@ main {
   width: 100%;
   background-color: #fafafa;
   margin-top: 50px;
-  margin-left: -14%;
+  margin-left: ;
   padding-right: 50px;
   padding-left: 20px;
   padding-bottom: 50px;
@@ -197,10 +197,14 @@ main {
   font-weight: 500;
   src: url("" Avenir.woff2"") format("" woff2"");
   background-color: #fafafa;
-  margin-left: -14%;
 }
 
 .column-full > footer > span {
   padding: 25px;
   font-size: larger;
+}
+
+.column {
+  flex-basis: 100%;
+  justify-content: right;
 }
