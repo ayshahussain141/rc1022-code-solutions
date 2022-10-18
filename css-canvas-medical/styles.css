@@ -1,5 +1,5 @@
 .container-header {
-  width: 1200px;
+  width: 900px;
   margin: 0 auto;
   margin-top: 15px;
 }
@@ -12,6 +12,7 @@
 
 .row {
   display: flex;
+  justify-content: center;
 }
 
 .head > header > h1 {
@@ -69,7 +70,7 @@
 }
 
 .body > .words > p {
-  margin-right: 50%;
+  width: 450px;
   position: absolute;
   color: white;
   top: 30%;
@@ -93,7 +94,7 @@
 /* stylelint-disable-next-line no-descending-specificity */
 .body > .words > button {
   position: absolute;
-  bottom: 50px;
+  bottom: 70px;
   color: azure;
   background-color: #0b4265;
   border-radius: 5%;
@@ -138,7 +139,6 @@ main {
   width: 100%;
   background-color: #fafafa;
   margin-top: 50px;
-  margin-left: ;
   padding-right: 50px;
   padding-left: 20px;
   padding-bottom: 50px;
@@ -146,6 +146,7 @@ main {
 
 .learn-more {
   margin-left: -50px;
+  margin-bottom: 20px;
 }
 
 .learn-more > .row > .column-half > button {
@@ -176,8 +177,6 @@ main {
   src: url(""Avenir.woff2"") format(""woff2"");
   line-height: 25px;
   padding: 100px;
-  margin-right: 80px;
-  margin-left: -80px;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
@@ -202,9 +201,4 @@ main {
 .column-full > footer > span {
   padding: 25px;
   font-size: larger;
-}
-
-.column {
-  flex-basis: 100%;
-  justify-content: right;
 }
