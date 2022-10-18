@@ -19,17 +19,18 @@ var Area = getArea(17, 42);
 console.log('The area is:', Area);
 
 function getFirstName(person) {
-  return person;
+  return person.firstName;
 }
-
 var fullName = getFirstName({ firstName: 'Aysha', lastName: 'Hussain' });
-console.log('My First Name is', fullName.firstName);
+console.log('My First Name is', fullName);
+
 function getLastElmement(array) {
-  return array;
+  var numberofElements = element.length;
+
+  var elementList = numberofElements - 1;
+  var lastElement = element[elementList];
+  return lastElement;
 }
 var element = getLastElmement(['poison', 'Ivy', 'propane', 'accessories']);
-var numberofElements = element.length;
 
-var elementList = numberofElements - 1;
-var lastElement = element[elementList];
-console.log('The last element is ', lastElement);
+console.log('The last element is ', element);
