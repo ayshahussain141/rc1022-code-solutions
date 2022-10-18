@@ -24,7 +24,6 @@ function getFirstName(person) {
 
 var fullName = getFirstName({ firstName: 'Aysha', lastName: 'Hussain' });
 console.log('My First Name is', fullName.firstName);
-
 function getLastElmement(array) {
   return array;
 }
