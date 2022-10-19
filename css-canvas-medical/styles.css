@@ -1,0 +1,204 @@
+.container-header {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.container {
+  width: 1200px;
+  height: 25%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.head > header > h1 {
+  display: inline;
+  color: #0b4265;
+  font-family: "Tiempos Headline", Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  src: url("TiemposHeadline-LightItalic.woff2") format("woff2");
+}
+
+.head > header > a {
+  position: relative;
+  left: 400px;
+  margin-right: 50px;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url(""Avenir.woff2"") format(""woff2"");
+  color: #a1a1a1;
+  text-decoration: none;
+}
+
+.head > header > button {
+  position: relative;
+  left: 390px;
+  background-color: #294464;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.body {
+  margin-top: 50px;
+  width: 900px;
+  height: 500px;
+  background-image: url("images/hero.jpg");
+  background-size: 100%;
+  position: relative;
+}
+
+.body > img {
+  width: 100%;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 65%));
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.body > .words > p {
+  width: 450px;
+  position: absolute;
+  color: white;
+  top: 30%;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url(""Avenir.woff2"") format(""woff2"");
+  line-height: 25px;
+}
+/* stylelint-disable-next-line no-descending-specificity */
+.body > .words > h1 {
+  position: absolute;
+  color: white;
+  top: 40px;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url(""Avenir.woff2"") format(""woff2"");
+  border-bottom: white;
+}
+/* stylelint-disable-next-line no-descending-specificity */
+.body > .words > button {
+  position: absolute;
+  bottom: 70px;
+  color: azure;
+  background-color: #0b4265;
+  border-radius: 5%;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  padding-left: 40px;
+  margin-left: 5px;
+  border: 1px;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url(""Avenir.woff2"") format(""woff2"");
+}
+
+.words {
+  margin: 50px;
+}
+
+.column-full {
+  flex-basis: 100%;
+  text-align: center;
+  color: #6e6e6e;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url(""Avenir.woff2"") format(""woff2"");
+}
+
+.column-half {
+  flex-basis: 50%;
+  text-align: center;
+  color: #6e6e6e;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url(""Avenir.woff2"") format(""woff2"");
+}
+
+main {
+  width: 100%;
+  background-color: #fafafa;
+  margin-top: 50px;
+  padding-right: 50px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+.learn-more {
+  margin-left: -50px;
+  margin-bottom: 20px;
+}
+
+.learn-more > .row > .column-half > button {
+  color: azure;
+  background-color: #0b4265;
+  border-radius: 5%;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  padding-left: 40px;
+  margin-left: 5px;
+  border: 1px;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url(""Avenir.woff2"") format(""woff2"");
+  margin-top: 28px;
+}
+
+.one-fourth {
+  flex-basis: 25%;
+  background-color: #6e6e6e;
+  color: white;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url(""Avenir.woff2"") format(""woff2"");
+  line-height: 25px;
+  padding: 100px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.one-fourth > h1 {
+  font-family: "Tiempos Headline", Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  src: url("TiemposHeadline-LightItalic.woff2") format("woff2");
+}
+
+.column-full > footer {
+  text-align: left;
+  padding: 50px;
+  color: #6e6e6e;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("" Avenir.woff2"") format("" woff2"");
+  background-color: #fafafa;
+}
+
+.column-full > footer > span {
+  padding: 25px;
+  font-size: larger;
+}
