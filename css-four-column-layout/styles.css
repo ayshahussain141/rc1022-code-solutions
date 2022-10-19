@@ -1,0 +1,38 @@
+.container {
+  width: 2000px;
+  margin: 0 auto;
+  background-color: #f8f8fa;
+  padding: 80px;
+  font-family: Barlow, Arial, Helvetica, sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+.content-two {
+  width: 20%;
+  margin-left: 50px;
+  position: relative;
+  left: 150px;
+}
+
+.column-one-fourth > h2 {
+  text-align: center;
+}
+
+.column-one-fourth > p {
+  text-align: center;
+}
