@@ -1,0 +1,41 @@
+.container {
+  max-width: 2500px;
+  margin: 0 auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.content {
+  width: 500px;
+  height: 700px;
+}
+
+.one-fifth {
+  flex-basis: 20%;
+  margin-top: 30px;
+}
+
+.one-fifth > span {
+  font-size: 25px;
+}
+
+.size {
+  color: #d6d6d6;
+}
+
+.retail {
+  color: #d6d6d6;
+}
+
+.price {
+  background-color: #fff2e7;
+  padding: 5px;
+}
