@@ -1,0 +1,31 @@
+.container {
+  width: 1200px;
+  height: 800px;
+  margin: 0% auto;
+  background-color: #fdf9f1;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 80px;
+  position: absolute;
+  top: 250px;
+  background-color: #faea84;
+}
+
+.container.night {
+  background-color: black;
+}
+
+.full.dark {
+  background-color: #252525bb;
+}
