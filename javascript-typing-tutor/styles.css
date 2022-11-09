@@ -1,0 +1,32 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.letters {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 250px;
+}
+
+.words {
+  white-space: pre;
+  font-family: Barlow, sans-serif;
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+}
+
+.words.underline {
+  border-bottom: solid;
+}
+
+.words.green {
+  color: greenyellow;
+}
+
+.words.red {
+  color: red;
+}
