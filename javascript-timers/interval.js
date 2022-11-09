@@ -1,17 +1,19 @@
 var three = document.querySelector('h1');
-function countDown() {
-  three.textContent = 3;
-}
-function Down() {
-  three.textContent = 2;
-}
-function four() {
-  three.textContent = 1;
-}
-function final() {
-  three.textContent = '~Earth Beeeelowwwwww Us~';
-}
-setTimeout(countDown, 3000);
-setTimeout(Down, 5000);
-setTimeout(four, 7000);
-setTimeout(final, 10000);
+
+var content = 4;
+var countDown = setInterval(function () {
+  content--;
+  if (content === 3) {
+    three.textContent = '3';
+  }
+  if (content === 2) {
+    three.textContent = '2';
+  }
+  if (content === 1) {
+    three.textContent = '1';
+  }
+  if (content === 0) {
+    three.textContent = '~Earth Beeeelowwwwww Us~';
+    clearInterval(countDown);
+  }
+}, 1000);
