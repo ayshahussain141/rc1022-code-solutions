@@ -1,0 +1,500 @@
+   60  git branch array-manipulation-2
+   61  git switch array-manipulation-2
+   62  git status
+   63  git add array-manipulation-2
+   64  git status
+   65  git commit -m "completed array-manipulation-2"
+   66  git push array-manipulation-2
+   67  git push origin array-manipulation-2
+   68  git switch main
+   69  git pull origin main
+   70  git branch string-manipulation-2
+   71  git switch string-manipulation-2
+   72  git switc main
+   73  git switch main
+   74  git branch -M object-manipulation-1
+   75  git push origin object-manipulation-1
+   76  git object-manipulation-1
+   77  git push origin object-manipulation-1
+   78  git switch main
+   79  git switch string-manipulation-2
+   80  git status
+   81  git add  string-manipulation-2
+   82  git status
+   83  git commit -m "Completed  string-manipulation-2"
+   84  git push origin  string-manipulation-2
+   85  git switch main
+   86  git switch main
+   87  git pull origin main
+   88  git branch object-manipulation-2
+   89  git switch object-manipulation-2
+   90  git switch main
+   91  git pull origin main
+   92  git branch dom-querying
+   93  git switch dom-querying
+   94  git status
+   95  git add dom-querying
+   96  git status
+   97  git commit -m "completed  dom-querying"
+   98  git push origin  dom-querying
+   99  git switch main
+  100  git pull origin main
+  101  git branch dom-events
+  102  git switch dom-events
+  103  git status
+  104  git add dom-events
+  105  git status
+  106  git commit -m "completed dom-events"
+  107  git push origin dom-events
+  108  git status
+  109  git add dom-events
+  110  git status
+  111  git commit -m "completed dom-events"
+  112  git push origin dom-events
+  113  git switch main
+  114  git pull origin main
+  115  git branch dom-manipulation
+  116  git switch dom-manipulation
+  117  git switch object-manipulation-1
+  118  git status
+  119  git switch main
+  120  git pull origin main
+  121  git switch object-manipulation-1
+  122  git status
+  123  git switch main
+  124  git switch main
+  125  git branch object-manipulation-1
+  126  git switch object-manipulation-1
+  127  git --list
+  128  git 
+  129  git tag object-manipulation-1
+  130  git switch main
+  131  git pull origin main
+  132  git switch object-manipulation-1
+  133  git switch main
+  134  git branch -D object-manipulation-1
+  135  git switch main
+  136  git oull origin main
+  137  git pull origin main
+  138  git branch object-manipulation-1
+  139  git switch object-manipulation-1
+  140  git switch dom-manipulation
+  141  git status 
+  142  git add dom-manipulation
+  143  git commit -m "completed dom-manipulation"
+  144  git push origin dom-manipulation
+  145  git switch object-manipulation-1
+  146  git status
+  147  git add object-manipulation-1
+  148  git status
+  149  git commit -m "completed object-manipulation-1"
+  150  git push origin object-manipulation-1
+  151  git push orgin object-manipulation-1
+  152  git push origin object-manipulation-1
+  153  git commit --amend -m "completed first version of js functions" --no-verify
+  154  git commit --amend -m "completed first version of object-manipulation-s" --no-verify
+  155  git push origin object-manipulation-1
+  156  git push origin heads/object-manipulation-1
+  157  git switch main
+  158  git switch main
+  159  git switch dom-manipulation
+  160  git status
+  161  git add  dom-manipulation
+  162  git status
+  163  git commit -m "completed dom-manipulation"
+  164  git push origin dom-manipulation
+  165  git switch main
+  166  git pull origin main
+  167  git branch javascript-light-bulb
+  168  git switch javascript-light-bulb
+  169  git status
+  170  git add javascript-light-manipulation
+  171  git add  javascript-light-bulb
+  172  git status
+  173  git commit -m "completed  javascript-light-bulb"
+  174  git push origin  javascript-light-bulb
+  175  git switch main
+  176  git branch javascript-modal
+  177  git switch javascript-modal
+  178  git status
+  179  git add javascript-modal
+  180  git status
+  181  git commit -m "Completed javascript-modal"
+  182  git push origin javascript-modal
+  183  git switch main
+  184  git switch object-manipulation-2
+  185  git switch main
+  186  git pull origin main
+  187  git switch array-manipulation-2
+  188  git status 
+  189  git add array-manipulation-2
+  190  git status
+  191  git commit -m "completed array-manipulation-2
+  192  git status
+  193  git commit -m "completed array-manipulation-2"
+  194  git push origin array-manipulation-2
+  195  git switch main
+  196  git pull origin main
+  197  git switch string-manipulation-2
+  198  git status
+  199  git add string-manipulation-2
+  200  git status 
+  201  git commit -m "completed string-manipulation-2"
+  202  git push origin string-manipulation-2
+  203  git status 
+  204  git switch main
+  205  git pull origin main
+  206  git status 
+  207  git switch main
+  208  git pull origin main
+  209  git branch css-transitions
+  210  git switch css-transitions
+  211  git switch object-manipulation-2
+  212  git switch css-tranitions
+  213  git switch css transitions
+  214  git switch main
+  215  git switch css-transitions
+  216  git status 
+  217  git add css-transitions
+  218  git status
+  219  git commit -m "completed css-transitions
+  220  git switch main
+  221  git pull origin main
+  222  git branch 
+  223  git branch javascript-forms
+  224  git switch javascript-forms
+  225  git status
+  226  git add  javascript-forms
+  227  git status
+  228  git commit -m "completed  javascript-forms"
+  229  git push origin  javascript-forms
+  230  git switch main
+  231  git pull origin main
+  232  git switch css-transitions
+  233  git status
+  234  git status
+  235  git add css-transitions
+  236  git status
+  237  git commit -m "completed css-transitions"
+  238  git push origin css-transitions
+  239  git switch main
+  240  git pull origin main
+  241  git branch dom-creation
+  242  git switch dom-creation
+  243  git status
+  244  git ass dom-creation
+  245  git add dom-creation
+  246  git status
+  247  git commit -m "Commit dom-creation"
+  248  git push origin dom-creation
+  249  git status
+  250  git switch main
+  251  git branch css-media-queries
+  252  git switch css-media-queries
+  253  git status
+  254  git add css-media-queries
+  255  git status
+  256  git commit -m "completed css-media-queries"
+  257  git push origin css-media-queries
+  258  git switch main
+  259  git status
+  260  git push object-manipulation
+  261  git add   object-manipulation-2/
+  262  git status
+  263  git commit -m "completed   object-manipulation-2"
+  264  git push origin  object-manipulation-2/
+  265  git push origin  object-manipulation-2
+  266  git status
+  267  git switch object-manipulation-2
+  268  git push object-manipulation-2
+  269  git tag object-manipulation-2
+  270  git git branch -D javascript-functions
+  271  git branch -D javascript-functions
+  272  git switch main
+  273  git branch javascript-functions
+  274  git switch javascript-functions
+  275  git branch -D object-manipulation-2
+  276  git switch main
+  277  git switch object-manipulation-2
+  278  git branch object-manipulation-2
+  279  git switch object-manipulation-2
+  280  git commit -m "completed object-manipulation-2"
+  281  git push origin object-manipulation-2"
+  282  git push origin object-manipulation-2
+  283   git push origin heads/object-manipulation-2
+  284  git switch main
+  285  git pull origin main
+  286  git branch array-manipulation-3
+  287  git switch array-manipulation-3
+  288  git switch main
+  289  git status
+  290  git switch main
+  291  git pull origin main
+  292  git branch dom-event-delegation
+  293  git switch dom-event-delegation
+  294  git status
+  295  git add dom-event-delegation
+  296  git status
+  297  git commit -m "completed dom-event-delegation"
+  298  git push origin completed dom-event-delegatio
+  299  git push origin completed dom-event-delegation
+  300  git push origin dom-event-delegation
+  301  git status
+  302  git switch main
+  303  git pull origin main
+  304  git branch javascript-view-swapping
+  305  git switch javascript-view-swapping
+  306  git status
+  307  git add javascript-view-swapping
+  308  git status
+  309  git commit -m "completed javascript-view-swapping"
+  310  git push origin javascript-view-swapping
+  311  git switch main
+  312  gitb pull origin main
+  313  git pull origin main
+  314  git branch css-responsive-layout
+  315  git switch css-responsive-layout
+  316  git status
+  317  git add css-responsive-layout
+  318  git status
+  319  git commit -m "Completed css-responsive-layout"
+  320  git push origin css-responsive-layout
+  321  git switch main
+  322  git pull origin main
+  323  git branch string-manipulation-3
+  324  git switch string-manipulation-3
+  325  git switch main
+  326  git branch javascript-custom-methods
+  327  git switch javascript-custom-methods
+  328  git status
+  329  git add javascript-custom-methods
+  330  git status 
+  331  git commit -m "completed javascript-custom-methods"
+  332  git push origin javascript-custom-methods
+  333  git status main
+  334  git switch main
+  335  git pull origin  main
+  336  git branch javascript-this
+  337  git switch javascript-this
+  338  git status 
+  339  git add javascript-this
+  340  git commti -m "completed  javascript-this"
+  341  git commit -m "completed javascript-this"
+  342  git push origin javascript-this
+  343  git switch main
+  344  git switch main
+  345  git commit -m "completed javascript-this"
+  346  git add javascript-this
+  347  git switch main
+  348  git commit -m "completed javascript-this"
+  349  git switch main
+  350  git branch javascript-prototypes
+  351  git switch javascript-prototypes
+  352  git status
+  353  git add  javascript-prototypes
+  354  git status
+  355  git commit -m "completed  javascript-prototypes"
+  356  git status
+  357  git push origin  javascript-prototypes
+  358  git switch main
+  359  git switch main
+  360  git pull origin main
+  361  git branch javascript-constructors
+  362  git switch javascript-constructors
+  363  git status 
+  364  git add javascript-constructors
+  365  git commit -m " completed javascript-constructors"
+  366  git push origin javascript-constructors
+  367  git switch main
+  368  git oull origin main
+  369  git pull origin main
+  370  git branch javascript-bank
+  371  git switch javascript-bank
+  372  git status
+  373  git add javascript-bank
+  374  git status
+  375  git commit -m "completed javascript-bank"
+  376  git push origin javascript-bank
+  377  git switch main
+  378  git pull origin main
+  379  git status
+  380  git add  javascript-custom-methods/
+  381  git pull origin main
+  382  git branch javascript-timers
+  383  git switch javascript-timers
+  384  git status
+  385  git add javascript-timers
+  386  git status
+  387  git commit -m "Completed javascript-timers"
+  388  git push origin javascript-timers
+  389  git status
+  390  git add javascript-timers
+  391  git commit -m "completed javascript-timers"
+  392  git push origin javascript-timers
+  393  git switch main
+  394  git pull origin main
+  395  git branch javascript-carousel
+  396  git switch javascript-carousel
+  397  git status 
+  398  git add  javascript-carousel
+  399  git commit -m "completed  javascript-carouse"
+  400  git push origin  javascript-carousel
+  401  git switch main
+  402  git pull origin main
+  403  git branch http-messages
+  404  git switch http-messages
+  405  https://example.com
+  406  http https://example.com
+  407  http --verbose https://example.com
+  408  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  409  http --body GET https://example.com > http-messages/index.html
+  410  GET https://example.com
+  411  GET https://learning-fuze.github.io/example/
+  412  GET https httpie.io/hello
+  413  git status
+  414  git add http-messages
+  415  git status
+  416  git commit -m "completed http-messages"
+  417  git push origin http-messages
+  418  git swtich main
+  419  git switch manin
+  420  git switch main
+  421  git pull origin main
+  422  git branch javascript-ajax
+  423  git switch javascript-ajax
+  424  git status 
+  425  git add javascript-ajax
+  426  git commit -m "completed javascript-ajax"
+  427  git push origin  javascript-ajax
+  428  git switch main
+  429  http  http://openlibrary.org/api/things 
+  430  http http://openlibrary.org/search.json?title=books?
+  431  git switch arra-manipulation-3
+  432  git switch array-manipulation-3
+  433  git status
+  434  fir add  array-manipulation-3
+  435  git add  array-manipulation-3
+  436  git commit -m "completed array-manipulation-3"
+  437  git push  array-manipulation-3
+  438  git push array-manipulation-3
+  439  git push  array-manipulation-3/
+  440  git push origin array-manipulation-3
+  441  git switch main
+  442  git switch string-manipulation-3
+  443  git switch main
+  444  git branch es6-const-let
+  445  git switch es6-const-let
+  446  git status
+  447  git add es6-const-let
+  448  git status
+  449  git commit -m "completed es6-const-let"
+  450  git push origin es6-const-let
+  451  git status
+  452  git add es6-const-let
+  453  git commit -m "completed es6-const-let"
+  454  git push origin es6-const-let
+  455  git switch main
+  456  git switch manipulation-3
+  457  git switch object-manipulation-3
+  458  git switch main
+  459  git branch es6-template-literals
+  460  git switch es6-template-literals
+  461  git status
+  462  git add es6-template-literals
+  463  git commit -m "completed  es6-template-literals"
+  464  git push origin es6-template-literals
+  465  git status
+  466  git add es6-template-literals
+  467  git commit -m "completed es6-template-literals"
+  468  git push origin es6-template-literals
+  469  git switch main
+  470  git switch object-manipulation-3
+  471  git switch main
+  472  git switch es6-template-literals
+  473  git switch es6-template-literals
+  474  git status 
+  475  git add es6-template-literals
+  476  git commit -m "completed es6-template-literals"
+  477  git push origin es6-template-literals
+  478  git switch main
+  479  git switch object-manipulation-3
+  480  git switch main
+  481  git branch es6-destructuring
+  482  git switch es6-destructuring
+  483  git status
+  484  git add es6-destructuring
+  485  git commit -m "completed es6-destructuring"
+  486  git push origin es6-destructuring
+  487  git status
+  488  git switch main
+  489  git branch es6-arrow-functions
+  490  git switch es6-arrow-functions
+  491  git status
+  492  git add es6-arrow-functions
+  493  git status
+  494  git commit -m "completed es6-arrow-functions"
+  495  git push origin es6-arrow-functions
+  496  git status
+  497  git switch main
+  498  git branch es6-arrow-functions
+  499  git branch command-line-basics
+  500  git switch command-line-basics
+  501  cd command-line-basics
+  502  man man
+  503  man cat
+  504  cat laziness.txt 
+  505  cat impatience.txt
+  506  cat hubris.txt
+  507  cat laziness.txt impatience.txt hubris.txt
+  508  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  509  cat three-virtues.txt
+  510  man ls
+  511  ls
+  512  ls -a
+  513  is -f
+  514  ls -f
+  515  ls -aF lfz-staff > lfz-staff/contents.txt
+  516  catlfz-staff/contents.txt
+  517  cat lfz-staff/contents.txt
+  518  man pwd
+  519  pwd
+  520  pwd > i-was-here.txt
+  521  ls
+  522  cat i-was-here.txt
+  523  man echo
+  524  echo'Hello, World!'
+  525  echo 'Hello, World!'
+  526  echo 'Hello, World!' > hello.txt
+  527  ls
+  528  cat hello.txt
+  529  man touch
+  530  touch tag-youre-it.txt
+  531  touch snoot/boop.txt
+  532  ls snoot/
+  533  man mkdir
+  534  man mkdir
+  535  mkdir parent
+  536  ls
+  537  mkdir -p parent/child/grandchild
+  538  touch parent/child/grandchild/.gitkeep
+  539  ls -a
+  540  man mv
+  541  man mv
+  542  mv pokiemans pokemon
+  543  ls pokemon
+  544  man rm
+  545  rm lol.txt
+  546  ls lol.txt
+  547  rm -r kill-me/
+  548  ls kill-me/
+  549  man cp
+  550  man cp
+  551  man cp
+  552  cp and-then.txt no-and-then.txt
+  553  ls and-then.txt
+  554  ls no-and-then.txt
+  555  cat and-then.txt
+  556  cat no-and-then.txt
+  557  man history
+  558  history
+  559  history > command-history.txt
