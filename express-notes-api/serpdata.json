@@ -1,0 +1,45 @@
+{
+  "nextId": 23,
+  "notes": {
+    "2": {
+      "id": 2,
+      "content": "hi"
+    },
+    "5": {
+      "id": 5,
+      "content": "In JavaScript, the value of `this` is determined when a function is called; not when it is defined."
+    },
+    "6": {
+      "id": 6,
+      "content": "A closure is formed when a function retains access to variables in its lexical scope."
+    },
+    "16": {
+      "content": "Javascript is a fun languaged",
+      "id": 16
+    },
+    "17": {
+      "content": "hello world",
+      "id": 17
+    },
+    "18": {
+      "content": "javascript is fun",
+      "id": 18
+    },
+    "19": {
+      "content": "hello world",
+      "id": 19
+    },
+    "20": {
+      "content": "javascript is fun",
+      "id": 20
+    },
+    "21": {
+      "content": "hello",
+      "id": 21
+    },
+    "22": {
+      "content": "hello",
+      "id": 22
+    }
+  }
+}
