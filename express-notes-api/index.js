@@ -4,14 +4,14 @@ const app = express();
 const json = require('./data.json');
 
 app.get('/api/notes', (req, res) => {
-  res.status(200).json(Object.values(json));
+  res.status(200).json(Object.values(json.notes));
 });
 
 app.get('/api/notes/:id', (req, res) => {
   const note = json.notes[req.params.id];
   if (note) {
     res.json(note);
-  } else if (Math.sign(req.params.id) === -1) {
+  } else if (Math.sign(req.params.id) === -1 || Math.sign(req.params.id) === 0) {
     res.status(400).json({ error: 'id must be a positive integer' });
   } else if (req.params.id !== note) {
     res.status(404).json({ error: 'error' });
@@ -56,7 +56,7 @@ app.delete('/api/notes/:id', (req, res) => {
         res.status(201).json(json.notes);
       }
     });
-  } else if (Math.sign(req.params.id) === -1) {
+  } else if (Math.sign(req.params.id) === -1 || Math.sign(req.params.id) === 0) {
     res.status(400).json({ error: 'id must be a positive integer' });
   } else if (req.params.id !== note) {
     res.status(404).json({ error: 'id does not exist' });
@@ -64,7 +64,7 @@ app.delete('/api/notes/:id', (req, res) => {
 });
 
 app.put('/api/notes/:id', (req, res) => {
-  if (Math.sign(req.params.id) === -1 || !req.body.content) {
+  if (Math.sign(req.params.id) === -1 || Math.sign(req.params.id) === 0 || !req.body.content) {
     res.status(400).json({ error: 'id is a not positve integar or content does not exist' });
   } else if (!json.notes[req.params.id]) {
     res.status(404).json('id does not exist');
