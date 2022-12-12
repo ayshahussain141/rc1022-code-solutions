@@ -36,4 +36,4 @@ console.log('balance', account.reduce(all, 0));
 const trait = (result, value) => {
   return Object.assign(result, value);
 };
-console.log('Object', traits.reduce(trait, 0));
+console.log('Object', traits.reduce(trait, {}));
