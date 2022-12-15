@@ -1,0 +1,55 @@
+.color {
+  background-color: #351C75;
+  color: white;
+  padding: 10px;
+  border-color: black;
+  box-shadow: 5px 4px 5px black;
+}
+
+.colorOne {
+  background-color: #674EA7;
+  color: white;
+  padding: 10px;
+  border-color: black;
+  box-shadow: 5px 4px 5px black;
+}
+
+.colorTwo {
+  background-color: #DF6666;
+  color: white;
+  padding: 10px;
+  border-color: black;
+  box-shadow: 5px 4px 5px black;
+}
+
+.colorThree {
+  background-color: #F6B26B;
+  color: black;
+  padding: 10px;
+  border-color: black;
+  box-shadow: 5px 4px 5px black;
+}
+
+.colorfour {
+  background-color: #FFFF00;
+  color: black;
+  padding: 10px;
+  border-color: black;
+  box-shadow: 5px 4px 5px black;
+}
+
+.colorfive {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-color: black;
+  box-shadow: 10px 5px 5px black;
+}
+
+.test {
+  background-color: chartreuse;
+  color: white;
+  padding: 10px;
+  border-color: black;
+  box-shadow: 5px 4px 5px black;
+}
