@@ -24,7 +24,7 @@ export default class StopWatch extends React.Component {
   }
 
   clear(){
-    if(!this.setState.isOn){
+    if(this.state.isOn !== true){
       this.setState({count: 0})
 }
   }
