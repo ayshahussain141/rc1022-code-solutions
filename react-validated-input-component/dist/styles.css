@@ -1,0 +1,29 @@
+.container{
+  margin: 0 auto;
+}
+.fa-check{
+color: #6AA84F;
+  font-weight: 900;
+  margin-left: 7px;
+}
+
+.fa-xmark{
+  color: red;
+  font-weight: 900;
+  margin-left: 7px;
+}
+
+span{
+  color: red;
+  font-size: 12px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+label {
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+input{
+  border: solid 2px;
+}
