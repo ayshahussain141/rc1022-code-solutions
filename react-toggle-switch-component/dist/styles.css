@@ -1,0 +1,22 @@
+.back {
+  padding: 8px 19px;
+  border-radius: 30px;
+}
+.backTwo {
+  padding: 8px 19px;
+  border-radius: 30px;
+  background-color: #6AA84F;
+}
+
+.slider {
+  padding: 6px;
+  border-radius: 20px;
+  position: relative;
+  right: 41px;
+}
+.sliderTwo {
+  padding: 6px;
+  border-radius: 20px;
+  position: relative;
+  right: 16px
+}
