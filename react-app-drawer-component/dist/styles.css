@@ -1,0 +1,45 @@
+.container{
+  width: 1200px;
+}
+
+.popup {
+  width: 200px;
+  height: 597px;
+  background-color: white;
+  border: solid 2px black;
+  position: fixed;
+  top: -1px;
+  left: 0px;
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.row{
+  display: flex;
+}
+
+.hidden{
+  display: none;
+}
+
+i{
+  cursor: pointer;
+}
+
+.view {
+  display: visible;
+}
+
+.overlay {
+  width: 1200px;
+  background-color: rgb(0 0 0 / 32%);
+  position: absolute;
+  top: 0%;
+  bottom: -12%;
+  left: 204px;
+  right: 0%;
+}
