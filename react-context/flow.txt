@@ -1,0 +1,69 @@
+/////database////
+Cerating a table in our database which has values of
+  *userId
+  *username
+  *hashedPassword
+  *created at
+
+/////SERVER////
+In our index.js for our server we are requiring
+  dot.env folder for our database in url
+  path fo
+  pg to set up database
+  argon2 to hash passwords
+  express to create an express server
+  jasonwebtoken to create a token for the jashed passwords
+  client error folder
+  error middleware to throw client errors
+  errormiddleware to handle errors that are generated
+
+we set express as a function to the variable app
+we joining the current directory route to the public folder and assigning ti ti const variable public path
+we have a condition statment that if NODE-Env of the env property of the process object
+    is not equal to the string development we create a middleware which requires dev middleware and public path as arguments
+create a middleware for sending filers as static on the publicpath variable
+create a middle on json method of the express object to pasre bodies.
+
+/////////////////////////SIGN UP//////////////////////////
+
+////SERVER////
+  1. calling the post method on the app object on the route /api/auth/sign-up with three arguments (req, res, next);
+  we're deconstructing the username and password from body propert of the req object
+  using a condition to see if username and password are not equal to req.body we throw a client error of
+  400 and a "username and password are required fields"
+  calling password on the hash method on argon2
+     then after the password is hashed we take the password and insert it into our database table by quering the db object
+     then we send the result over as a json object with the status of 201 to our client
+  if the method above does not work we catch an error and pass the next as an argument which passes the error onto the next middleware
+  which is the error middleware.
+
+////////////////////////User can stay signed in//////////////////////////////////////
+///Client////
+The client is accessing data by using fetch where it access the data from `/api/auth/${action} action is destructured from this.props
+Then the data that is accesses is being parsed
+Then if on submit if the action is sign up that will add hash at the end the page of sign-in which reflects the current page the view is on with the parseroute method
+ this method return path and params as an argumet in the hash link whitch attaches itself  at the URL.
+
+
+
+/////////////////SIGN IN //////////////////////////////
+  1. calling the post method on the app object on the route /api/auth/sign-up with three arguments (req, res, next);
+  we're deconstructing the username and password from body property of the req object
+  using a condition to see if username and password are not equal to req.body we throw a client error of 400 and
+  a "username and password are required fields"
+ we select userId and hashedPassword from out database table users where username is equal to our req params and query the database
+ THEN we deconstruct user from results as an array
+ if there is no user throw a client error of 401 and a string invalid login
+ else take userId and hashedPassword
+  verify the hashedPassword and password match with argon2
+  THEN if the passwords do not match throw a newClientError of 401 and a string invalid login
+  else assign a userdId and username as an object to the constant variable payload
+  create a token for payload by using the TOKEN-secret of the env property of the process object
+  send over token to the result to the client as a json object
+ if the method above does not work we catch an error and pass the next as an argument which passes the error onto the next middleware
+which is the error middleware
+
+/////////USER CAN SIGN OUT/////////////////////////////
+On the click of sign out the redirect remove is called on the url.
+ This removes 'react-context-jwt' which is the token that is needed to access a user.
+ The user which is set back to null.
